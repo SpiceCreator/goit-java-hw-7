@@ -2,27 +2,6 @@ package com.graphic.editor.shapes;
 
 public class GraphicEditorTester {
     public static void main(String[] args) {
-//        Point p1 = new Point(0, 0);
-//        ShapeInitializer SI = new ShapeInitializer();
-//        SI.getShapeName(p1);
-//        Point p2 = new Point(3, 4);
-//        Line l1 = new Line(p1, p2);
-//        System.out.println(l1.getLength());
-//        System.out.println(l1);
-//        p1.move(2,1);
-//        System.out.println(l1.getLength());
-//        System.out.println(l1);
-//        l1.move(2, 5);
-//        System.out.println(l1);
-//        Circle c1 = new Circle( new Point(1, 1), 5);
-//        System.out.println(c1);
-//        System.out.println(c1.getName());
-//        c1.move(5, 10);
-//        System.out.println(c1);
-//        System.out.println(p1);
-//        c1.resize(1.2);
-//        System.out.println(c1);
-        //System.out.println(Math.cos(Math.PI / 3));
 
         Point point1 = Point.create(0, 0);
         System.out.println(point1);
