@@ -24,6 +24,7 @@ public class Line extends Shape {
                 new Point(coords[0][0], coords[0][1]),
                 new Point(coords[1][0], coords[1][1])
         });
+        name = "Line";
         this.p1 = this.points[0];
         this.p2 = this.points[1];
     }

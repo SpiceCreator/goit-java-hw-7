@@ -38,5 +38,15 @@ public class GraphicEditorTester {
         Rectangle rectangle = Rectangle.create(point1, 10, 20);
         System.out.println(rectangle);
 
+        Triangle triangle = Triangle.create(new double[][]{{0, 0}, {3, 4}, {10, 5}});
+        System.out.println(triangle);
+
+        ShapeInitializer SI = new ShapeInitializer();
+        SI.getShapeName(point1);
+        SI.getShapeName(line);
+        SI.getShapeName(rectangle);
+        SI.getShapeName(circle);
+        SI.getShapeName(triangle);
+
     }
 }
